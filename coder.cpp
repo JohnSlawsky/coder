@@ -1,3 +1,9 @@
+//
+// By: John Slawsky 8 December 2016.
+// 
+// Obviously this is just a little bit of fiddling around code.
+//
+
 #include "stdio.h"
 #include "stdlib.h"
 #include "time.h"
