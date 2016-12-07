@@ -1,0 +1,11 @@
+coder.exe : coder.o
+	cc -o coder.exe coder.o -L $(GTEST_HOME) -lstdc++  /home/vagrant/GoogleMock/googletest-release-1.8.0/googlemock/libgmock.so /home/vagrant/GoogleMock/googletest-release-1.8.0/googlemock/libgmock_main.so 
+
+#-print-search-dirs
+# -L /usr/lib
+
+coder.o : coder.cpp
+	cc -c coder.cpp
+
+clean :
+	rm coders $(objects)
